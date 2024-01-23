@@ -1,0 +1,12 @@
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.link{
+    margin: 0 10px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}

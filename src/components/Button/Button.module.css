@@ -1,0 +1,17 @@
+.button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.primary{
+    composes:button;
+    background: linear-gradient(91.88deg,#2c57f3 .88%,#a506d8 98.71%);
+    color: white;
+}
+.secondary{
+    composes:button;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
